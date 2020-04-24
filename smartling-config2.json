@@ -47,7 +47,7 @@
             "pathRegex"                 : "RepoConnectorTest2\\/info.json",
             "translationPathExpression" : "${originalFile.path}${originalFile.baseName}-${locale}.${originalFile.extension}",
             "smartlingDirectives"       : [
-                "smartling.placeholder_format_custom = (steven)",
+                "smartling.placeholder_format_custom = (My)",
                 "smartling.variants_enabled = true"
            ]
          },
