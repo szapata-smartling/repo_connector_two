@@ -42,7 +42,7 @@
          // Minimal recourse set definition. Translations won't be pushed back.
         
          {
-            "type"                      : "android",
+            "type"                      : "json",
             "authorizeContent"          : "false",
             "pathRegex"                 : "RepoConnectorTest2\\/info.json",
             "translationPathExpression" : "${originalFile.path}${originalFile.baseName}-${locale}.${originalFile.extension}",
