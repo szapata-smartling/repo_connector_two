@@ -72,6 +72,16 @@
                 "smartling.variants_enabled = true"
            ]
          },
+          {
+            "type"                      : "json",
+            "authorizeContent"          : "false",
+            "pathRegex"                 : "RepoConnectorTest2\\/newFormat\\.en\\.US\\.json",
+            "translationPathExpression" : "RepoConnectorTest2/${originalFile.baseName}.${locale}.${originalFile.extension}",
+            "smartlingDirectives"       : [
+                "smartling.placeholder_format_custom = (My)",
+                "smartling.variants_enabled = true"
+           ]
+         },
          {
             "type"                      : "json",
             "authorizeContent"          : "false",
