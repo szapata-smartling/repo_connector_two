@@ -65,8 +65,8 @@
           {
             "type"                      : "json",
             "authorizeContent"          : "false",
-            "pathRegex"                 : "RepoConnectorTest2\\/strangeFormat\\.en\\.US\\.json",
-            "translationPathExpression" : "${originalFile.path}${originalFile.baseName}-${locale}.${originalFile.extension}",
+            "pathRegex"                 : "RepoConnectorTest2\\/(?P<onlyFileName>strangeFormat)\\.en\\.US\\.json",
+            "translationPathExpression" : "${originalFile.path}${onlyFileName}${locale}.${originalFile.extension}",
             "smartlingDirectives"       : [
                 "smartling.placeholder_format_custom = (My)",
                 "smartling.variants_enabled = true"
