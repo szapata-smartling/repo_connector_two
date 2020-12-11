@@ -7,7 +7,7 @@
     "locales": [
          {
              "smartling" : "de-DE",
-             "application" : "de"
+             "application" : "de-DE"
          },
          {
              "smartling" : "es-CO",
