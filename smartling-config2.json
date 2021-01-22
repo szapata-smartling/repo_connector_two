@@ -44,7 +44,7 @@
          {
             "type"                      : "json",
             "authorizeContent"          : "false",
-            "pathRegex"                 : "RepoConnectorTest2\\/customerMessage_repository_CustomerMessages\\.en\\.US\\.json",
+            "pathRegex"                 : "RepoConnectorTest2\\/referencedata_repository_RegulatoryReferenceDataDocuments\\.en\\.US\\.json",
             "translationPathExpression" : "${originalFile.path}${originalFile.baseName}-${locale}.${originalFile.extension}",
             "smartlingDirectives"       : [
                "smartling.translate_paths = [{\"path\": \"text\"},{\"key\": \"id\", \"path\": \"name\"},{\"key\": \"id\", \"path\": \"description\"}]",
