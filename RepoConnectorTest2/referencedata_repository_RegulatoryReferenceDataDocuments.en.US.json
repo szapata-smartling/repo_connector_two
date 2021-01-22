@@ -1,0 +1,68 @@
+{
+  "smartling": {
+    "translate_paths": [
+      {
+        "key": "*/id",
+        "path": "*/discription"
+      },
+      {
+        "key": "*/name",
+        "path": "*/discription"
+      }
+    ],
+    "placeholder_format_custom": [
+      "<.*?>"
+    ]
+  },
+  "data_type": "RegulatoryReferenceDataDocuments",
+  "language_code": "EN",
+  "locale_code": "us",
+  "encoding": "utf-8",
+  "reference_data": [
+    {
+      "id": "ALF001",
+      "name": "testing ",
+      "description": "testing",
+      "fileName": "PDF00202",
+      "supportType": "PRINT_ONLY",
+      "agencyName": "testing",
+      "documentUrl": "https: //www.fedex.com/gtm/pdf/PDF00202.pdf"
+    },
+    {
+      "id": "ADF026",
+      "name": "for testing add new document",
+      "description": "for testing add new document update",
+      "fileName": "PDF0101",
+      "supportType": "PRINT_ONLY",
+      "agencyName": "ag",
+      "documentUrl": "https: //www.fedex.com/gtm/pdf/PDF0101.pdf"
+    },
+    {
+      "id": "ADF028",
+      "name": "new record of document",
+      "description": "new record of document",
+      "fileName": "pdf0091",
+      "supportType": "PRINT_ONLY",
+      "agencyName": "document",
+      "documentUrl": "https: //www.fedex.com/gtm/pdf/pdf0091.pdf"
+    },
+    {
+      "id": "AUF016",
+      "name": "document",
+      "description": "document testing",
+      "fileName": "PDF014",
+      "supportType": "PRINT_ONLY",
+      "agencyName": "testing",
+      "documentUrl": "https: //www.fedex.com/gtm/pdf/PDF014.pdf"
+    },
+    {
+      "id": "BAF001",
+      "name": "new Record for Testing",
+      "description": "new Record for Testing",
+      "fileName": "pdf0329",
+      "supportType": "PRINT_ONLY",
+      "agencyName": "testing",
+      "documentUrl": "https: //www.fedex.com/gtm/pdf/pdf0329.pdf"
+    }
+  ]
+}
