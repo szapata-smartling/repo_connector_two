@@ -44,7 +44,17 @@
          {
             "type"                      : "json",
             "authorizeContent"          : "false",
-            "pathRegex"                 : "RepoConnectorTest2\\/info.json",
+            "pathRegex"                 : "RepoConnectorTest2\\/customerMessage_repository_CustomerMessages.en.US.json",
+            "translationPathExpression" : "${originalFile.path}${originalFile.baseName}-${locale}.${originalFile.extension}",
+            "smartlingDirectives"       : [
+               "smartling.translate_paths = [{\"path\": \"text\"},{\"key\": \"id\", \"path\": \"name\"},{\"key\": \"id\", \"path\": \"description\"}]",
+                "smartling.placeholder_format_custom = \"\\<.*?\\>\""
+           ]
+         },
+                  {
+            "type"                      : "json",
+            "authorizeContent"          : "false",
+            "pathRegex"                 : "\\/info.json",
             "translationPathExpression" : "${originalFile.path}${originalFile.baseName}-${locale}.${originalFile.extension}",
             "smartlingDirectives"       : [
                 "smartling.placeholder_format_custom = (My)",
