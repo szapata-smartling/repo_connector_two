@@ -45,7 +45,7 @@
             "type"                      : "json",
             "authorizeContent"          : "false",
             "pathRegex"                 : "(?<path>.*)\\.en\\.US\\.json",",
-            "translationPathExpression" : "${originalFile.path}${originalFile.baseName.replaceAll('.en.US', '.'+locale)}.${originalFile.extension"",
+            "translationPathExpression" : "${originalFile.path}${originalFile.baseName.replaceAll('.en.US', '.'+locale)}.${originalFile.extension",
             "smartlingDirectives"       : [
                "smartling.translate_paths = [{\"path\": \"text\"},{\"key\": \"id\", \"path\": \"name\"},{\"key\": \"id\", \"path\": \"description\"}]",
                 "smartling.placeholder_format_custom = \"\\<.*?\\>\""
