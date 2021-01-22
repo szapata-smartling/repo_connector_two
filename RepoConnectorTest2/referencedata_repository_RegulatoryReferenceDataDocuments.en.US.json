@@ -3,11 +3,11 @@
     "translate_paths": [
       {
         "key": "*/id",
-        "path": "*/discription"
+        "path": "*/description"
       },
       {
         "key": "*/name",
-        "path": "*/discription"
+        "path": "*/description"
       }
     ],
     "placeholder_format_custom": [
