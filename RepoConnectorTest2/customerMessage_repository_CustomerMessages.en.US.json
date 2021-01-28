@@ -4,7 +4,7 @@
       "path": "*/text"
     },
     "placeholder_format_custom": [
-      "(e)"
+      "(m)"
     ]
   },
   "message_type": "customerMessage",
