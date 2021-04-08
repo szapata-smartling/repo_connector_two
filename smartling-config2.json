@@ -98,6 +98,14 @@
             "translationPathExpression" : "${originalFile.path}${originalFile.baseName}${locale}.${originalFile.extension}",
             "smartlingDirectives"       : [
                 "smartling.placeholder_format_custom = (%s)"
+           ]},
+         {
+            "type"                      : "json",
+            "authorizeContent"          : "false",
+            "pathRegex"                 : "RepoConnectorTest2\\/no_strings.json",
+            "translationPathExpression" : "${originalFile.path}${originalFile.baseName}${locale}.${originalFile.extension}",
+            "smartlingDirectives"       : [
+                "smartling.placeholder_format_custom = (%s)"
            ]
          },
          
